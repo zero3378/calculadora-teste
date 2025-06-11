@@ -9,17 +9,15 @@
     <link rel="stylesheet" type="text/csss"  href="calc.css">
 </head>
 <body>
-    <div>
-        <input type="text" id="visor" >
+        <input type="number" id="numb">
+        <input type="number" id="numb">
+        
+            <button onclick="SomaElementos()">+</button>
+            <button onclick="SubElementos()">-</button>
+            <button onclick="MultiElementos()">*</button>
+            <button onclick="DivElementos()">/</button>
 
-
-        <div class="botoes">
-            <button onclick="limpar()">C</button>
-            <button onclick="apagar()">←</button>
-            <button onclick="adicionar('%')">%</button>
-            <button class="operador" onclick="adicionar('/')">/</button>
-
-        </div>
-    </div>
+        <p id="Praragrafo"></p>
+        <script src="sql.js"></script>
 </body>
 </html>
